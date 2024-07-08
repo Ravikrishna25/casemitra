@@ -1,0 +1,114 @@
+/* .calendar-container {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+  .rbc-header {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .rbc-header-toolbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .rbc-header-toolbar button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .rbc-header-toolbar button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .rbc-month-view {
+    border: 1px solid #ddd;
+  }
+  
+  .rbc-month-view .rbc-month {
+    padding: 10px;
+  }
+  
+  .rbc-month-view .rbc-day {
+    min-height: 100px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .rbc-month-view .rbc-event {
+    background-color: #90CAF9;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .rbc-month-view .rbc-event.all-day {
+    background-color: #f0f0f0;
+  }
+  
+  .rbc-month-view .rbc-event-content {
+    font-weight: bold;
+  }
+  
+  .rbc-time-picker {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .rbc-time-picker-hour {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .rbc-time-picker-hour.selected {
+    background-color: #eee;
+  }
+  
+  .rbc-time-picker-minute {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .rbc-time-picker-minute.selected {
+    background-color: #eee;
+  }
+   */
+   .calendar-container {
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .rbc-toolbar {
+      flex-direction: column;
+    }
+  
+    .rbc-toolbar-label {
+      margin-bottom: 10px;
+    }
+  
+    .rbc-btn-group {
+      margin-bottom: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .rbc-btn-group button {
+      margin-bottom: 5px;
+    }
+  
+    .rbc-event {
+      font-size: 12px;
+    }
+  }
+  
