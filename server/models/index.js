@@ -2,9 +2,9 @@
 const { Sequelize } = require('sequelize');
 require('dotenv').config();
 
-const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
-    host: process.env.DB_HOST,
-    port: process.env.DB_PORT,
+const sequelize = new Sequelize(casemitra, postgres, casemitra_v1, {
+    host: casemitrards.czokwaoaczpc.ap-south-1.rds.amazonaws.com,
+    port: 5432,
     dialect: 'postgres',
 });
 
